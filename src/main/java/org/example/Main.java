@@ -2,15 +2,16 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world");
+
+        int sumOfAdd = add(10,10);
+        System.out.println(sumOfAdd);
+
 
     }
 
     public static int add(int numA, int numB){
-
-        int sum = numA + numB;
-
-        return sum;
+        int result = numA + numB;
+        return result;
     }
 
 

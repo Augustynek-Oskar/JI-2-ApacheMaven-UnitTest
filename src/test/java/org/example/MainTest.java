@@ -7,6 +7,7 @@ public class MainTest {
 
     @Test
     void shouldAddOnePlusTwo() {
-        Main add = new
+        int result = Main.add(1,2);
+        Assertions.assertEquals(3,result);
     }
 }
