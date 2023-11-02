@@ -3,7 +3,9 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
-
+        System.out.println(getDayOfTheWeek(2));
+        System.out.println(getDayOfTheWeek(7));
+        System.out.println(getDayOfTheWeek(10));
 
     }
     public static String getDayOfTheWeek (int dayNum){
