@@ -10,7 +10,7 @@ public class Main {
 
     }
     public static boolean checkIfNumberIsEven (int number){
-        if (number %2 == 0){
+        if (number % 2 == 0){
             return true;
         }
         else {
