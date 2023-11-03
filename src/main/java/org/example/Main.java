@@ -1,16 +1,8 @@
 package org.example;
-
 public class Main {
-    public static void main(String[] args) {
+    public static String getDayOfTheWeek(int dayNum) {
 
-        System.out.println(getDayOfTheWeek(2));
-        System.out.println(getDayOfTheWeek(7));
-        System.out.println(getDayOfTheWeek(10));
-
-    }
-    public static String getDayOfTheWeek (int dayNum){
-
-        switch (dayNum){
+        switch (dayNum) {
             case 1:
                 return "Monday";
             case 2:
@@ -28,7 +20,6 @@ public class Main {
 
         }
     }
-
-
-
 }
+
+
